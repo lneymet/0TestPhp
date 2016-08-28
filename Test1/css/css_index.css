@@ -1,0 +1,148 @@
+.logoMain img{
+	max-width:50%
+}
+
+.imgHeader {
+	height:205px;
+	position: relative;
+	border-style: solid;
+    border-width: 2px;
+	border-radius: 20px;
+	box-shadow: 0px 2px 5px #1c1a19;
+}
+
+.imgHeader img {
+   position: absolute; 
+   width: 100%;
+   height:205px;
+   top: 0px;
+   border-radius: 20px;
+}
+
+.title {
+	position: absolute; 
+	color:red;
+/*	text-align:center; */
+	top: 0px; 
+    left: 10px;
+	width: 100%;
+	}
+	
+.title span {
+	color: white; 
+	font: bold 30px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+	border-radius: 25px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+	opacity: 0.6;
+}
+	
+	
+p {
+	font: 12px Helvetica, Sans-Serif;
+}
+
+ul {list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menuMain {
+	float: right;
+	top: 0px;
+/* 	border-style: solid;
+    border-width: 1px; */
+}
+
+#menu li {
+  float: right;
+  top: 0px;
+  padding: 0 5px;
+/*   	border-style: solid;
+    border-width: 1px; */
+}
+
+a {
+	font: bold 15px Helvetica, Sans-Serif;
+    text-align:center;
+	text-decoration: none;
+	display: block;
+    width: 60px;
+}
+
+nav a:hover{
+    color: #A33F69;
+    border: 2px solid #A33F69;
+}
+
+.section article, aside{
+    display: inline-block;
+    vertical-align: top;
+	top: 50px;
+    text-align: justify;
+}
+
+.artCont {
+	position: absolute;
+	top: 335px;
+	left: 280px;
+	margin-right: 15px;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #1c1a19;
+}
+
+.artCont h2 {
+		font: bold 18px Helvetica, Sans-Serif;
+}
+
+.articles1{
+	margin-left: 15px;
+    margin-right: 15px;
+}
+
+.articles2 {
+	margin-left: 15px;
+    margin-right: 15px;
+}
+
+article p{
+	font: 12px Helvetica, Sans-Serif;
+    font-size: 0.8em;
+}
+
+aside{
+    position: relative;
+    width: 235px;
+    background-color: #A5B0DA;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+}
+
+aside h3 {
+	font: bold 15px Helvetica, Sans-Serif;
+}
+
+aside li {
+	font: 12px Helvetica, Sans-Serif;
+	text-align: left;
+}
+
+footer {
+	text-align: right;
+}
+
+footer p {
+	font-weight: bold;
+}
+
+footer span {
+	font-weight: normal;
+	font-style: italic;
+}
